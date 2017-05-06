@@ -5,17 +5,12 @@
 # Files for the ART/Dalvik VM
 *.dex
 
-# Java class files
-*.class
-
 # Generated files
 bin/
 gen/
 out/
-
-# Gradle files
-.gradle/
-build/
+target/
+project/*/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -34,7 +29,7 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
+.idea
 
 # Keystore files
-*.jks
+*.jks/

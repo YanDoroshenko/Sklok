@@ -1,4 +1,4 @@
-package org.sklok
+package com.github.yandoroshenko.sklok
 
 import android.app.Activity
 

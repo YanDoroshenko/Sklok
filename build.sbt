@@ -6,6 +6,6 @@ scalaVersion := "2.11.11"
 
 enablePlugins(AndroidApp)
 
-platformTarget := "25"
+platformTarget := "android-25"
 
 useProguard in Android := true

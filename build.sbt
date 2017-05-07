@@ -9,3 +9,7 @@ enablePlugins(AndroidApp)
 platformTarget := "android-25"
 
 useProguard in Android := true
+
+libraryDependencies ++=
+  "org.scaloid" %% "scaloid" % "4.2" ::
+    Nil
